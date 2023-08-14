@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+section{
+    background: #f29d9d;
+    /* width: 100%; */
+    max-width: 100vw;
+    height: 618px;
+}
+.empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20em;
+    /* position: relative; */
+}
+.one-four .five-eight .nine-ten{
+    position: relative;
+    width: 35px;
+}
+.border{
+    position: absolute;
+    border: 2px solid aqua;
+    border-radius: 50%;
+}
+.one{
+    width: 150px;
+    height: 150px;
+}
+.two{
+    width: 130px;
+    height: 130px;
+}
+.three{
+    width: 110px;
+    height: 110px;
+}
+.four{
+    width: 90px;
+    height: 90px;
+}
+.five{
+    width: 150px;
+    height: 150px;
+}
+.six{
+    width: 130px;
+    height: 130px;
+}
+.seven{
+    width: 110px;
+    height: 110px;
+}
+.eight{
+    width: 90px;
+    height: 90px;
+}
+.nine{
+    width: 250px;
+    height: 250px;
+    animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.ten{
+    width: 50px;
+    height: 50px;
+    animation: scale 4s ease-in-out infinite;
+}
+@keyframes scale {
+    0%{
+        transform: translateY(200px);
+    }
+    25%{
+        transform: translateX(200px);
+    }
+    50%{
+        transform: translateZ(200px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+.nine-ten .nine{
+    top: 130px;
+    left: 540px;
+}
+.nine-ten .ten{
+    top: 410px;
+    left: 630px;
+}
+
+.one-four .four{
+    top: 500px;
+}
+.one-four .three{
+    top: 360px;
+    left: 280px;
+}
+.one-four .two{
+    top: 190px;
+    left: 240px;
+}
+.one-four .one{
+    top: 10px;
+    left: 280px;
+}
+
+
+.five-eight .eight{
+    top: 500px;
+    right: 380px;
+}
+.five-eight .seven{
+    top: 360px;
+    right: 280px;
+}
+.five-eight .six{
+    top: 190px;
+    right: 220px;
+}
+.five-eight .five{
+    top: 10px;
+    right: 230px;
+}
